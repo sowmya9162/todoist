@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #59D5E0;
+    height: 100%; /* Ensure the body and html take full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the product cards */
+.todo-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    padding: 20px;
+    background-color: #F5DD61;
+}
+
+/* Individual product card styling */
+.todolist {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 550px; /* Adjust width as needed */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s; /* For hover effect */
+}
+
+/* Heading styling */
+.todolist h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Description styling */
+.todolist p {
+    font-size: 1em;
+    color: #555;
+    font-weight: 700;
+}
+.todolist img{
+    width:100px;
+    height: 100px;
+}
+
+/* Button styling */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    background-color: #0C359E;
+}
+
+button:hover {
+    background-color: #447ad7;
+}
+
+/* Hover effect for product card */
+.todolist:hover {
+    transform: scale(1.05);
+}

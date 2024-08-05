@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.countdown {
+    margin-top: 20%;
+}
+
+#timer {
+    font-size: 48px;
+    margin-top: 20px;
+    display: block;
+}
+
+div {
+    margin-top: 20px;
+}
+
+#timeInput {
+    padding: 5px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+
+#button1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
